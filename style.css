@@ -82,7 +82,7 @@ button {
 }
 
 button:hover {
-    background-color: #777; /* Cinza mais claro ao passar o mouse */
+    background-color: #56af59; /* Cinza mais claro ao passar o mouse */
 }
 
 #error-message {
