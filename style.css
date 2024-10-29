@@ -71,7 +71,7 @@ input[type="password"]:focus {
 button {
     width: auto; /* Botão menor */
     padding: 10px 20px;
-    background-color: #555; /* Cinza escuro */
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 4px;
