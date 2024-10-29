@@ -36,7 +36,7 @@ body {
 }
 
 .menu ul li a {
-    color: #ff6700; /* Laranja Halloween */
+    color: #4CAF50; /* Laranja Halloween */
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
@@ -67,7 +67,7 @@ body {
 /* Efeitos e Estilo Halloween */
 h1, h2 {
     font-family: 'Creepster', cursive; /* Fonte temática de Halloween */
-    color: #ff6700; /* Laranja Halloween */
+    color: #4CAF50; /* Laranja Halloween */
 }
 
 p {
@@ -75,3 +75,18 @@ p {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.youtube-button {
+    display: inline-block; /* Para que o link se comporte como um botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #ff0000; /* Cor de fundo do botão (vermelho do YouTube) */
+    color: white; /* Cor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: background-color 0.3s; /* Transição suave para o hover */
+}
+
+.youtube-button:hover {
+    background-color: #cc0000; /* Cor mais escura ao passar o mouse */
+}
